@@ -23,7 +23,7 @@ ol {
   list-style: none;
 }
 
-/* скрыть лишние лейблы и браузерные чекбоксы */
+/* скрыть лишние лейблы и браузерные чекбоксы */ 
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -127,11 +127,15 @@ html {
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   appearance: none;
+}
+
+.search-form__textfield::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* контейнер чекбоксов */
